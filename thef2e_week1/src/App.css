@@ -1,38 +1,191 @@
-.App {
-  text-align: center;
+/* nav start */
+.home_nav {
+  font-family: "Noto Sans TC", sans-serif;
+  width: 100%;
+  height: 60px;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_left {
+  /* border: 1px solid red; */
+  padding-left: 152px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav_right {
+  /* border: 1px solid red; */
+  padding-left: 46px;
 }
+.input_search {
+  background: #fefefe;
+  /* border: 1px solid red; */
+  width: 271px;
+  height: 31px;
+  padding: 18px 16px;
+  border-radius: 20px;
+}
+.input_text {
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+.search_location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 111px;
+  height: 38px;
+  background: #fefefe;
+  border: 1px solid #1fb588;
+  box-sizing: border-box;
+  border-radius: 63px;
+  margin-right: 24px;
+}
+.search_location_text {
+  font-size: 15px;
+  color: #1fb588;
+  letter-spacing: 0.05em;
+  margin-right: 9px;
+}
+.my_travle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 21px;
+  color: #fefefe;
+  background: #1fb588;
+  border-radius: 63px;
+  border: none;
+}
+.my_travle div {
+  color: #fefefe;
+}
+/* nav end */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* homepage start */
+.homepage_pic1 {
+  height: calc(100vh - 60px);
+  background-image: url(./img/home_pic1.jpg);
+}
+.search_title {
+  font-size: 46px;
+  font-weight: 700;
+  color: #fefefe;
+}
+.container_style {
+  width: 100%;
+  padding: 48px 148px 0 148px;
+  /* border: 1px solid red; */
+}
+.container_style_left {
+  width: 100%;
+  padding: 16px 0 48px 148px;
+  /* border: 1px solid red; */
+}
+.container_style_right {
+  width: 100%;
+  padding: 48px 148px 48px 0;
+  /* border: 1px solid red; */
+}
+.content_title {
+  font-size: 31px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+.text_blod {
+  font-weight: 700;
+}
+.place_card {
+  width: 354px;
+  height: 326px;
+  padding: 20px 20px 0 20px;
+  margin-right: 41px;
+  border-radius: 8px;
+  background: #fefefe;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.place_card_img {
+  position: relative;
+  width: 313px;
+  height: 171px;
+}
+.place_card_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.add_heart {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fefefe;
+  border: 1px solid #28daa5;
+  color: #28daa5;
+  font-size: 20px;
+  /* padding: 12px 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place_card_text {
+  color: rgba(67, 67, 67, 1);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+.place_card_stars {
+  width: 140px;
+  font-size: 22px;
+  color: #fab042;
+}
+.place_card_tag {
+  padding: 22px 0;
+}
+.small_tag_text {
+  height: 23px;
+  background: #28daa5;
+  border-radius: 21px;
+  display: inline;
+  padding: 4px 10px;
+  margin: 0 8px 0 0;
+  background: #28daa5;
+  font-weight: 700;
+  color: #fefefe;
+  font-size: 12px;
+  line-height: 14px;
+}
+.pop_title_bg {
+  background: url(./img/pop_title_bg.png);
+  width: 100%;
+  height: 339px;
+}
+.pop_title {
+  font-size: 37px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #fefefe;
+}
+.home_footer {
+  font-family: "Noto Sans TC", sans-serif;
+  width: 100%;
+  height: 108px;
+  background: #28daa5;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 30px 238px;
+}
+.footer_content {
+  /* padding: 30px 238px; */
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(254, 254, 254, 1);
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* homepage end */
